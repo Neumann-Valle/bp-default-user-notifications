@@ -1,6 +1,6 @@
 <?php
 /*
- * Plugin Name: BP Defaultt user notifications
+ * Plugin Name: BP Default user notifications
  * Plugin URI: https://github.com/utan/bp-default-user-notifications
  * Description: Change default notification settings for users, overrides current settings for Buddypress..
  * Tags: Buddypress, Buddypress notifications, Stop Buddypress flooading emails, Buddypress missing options
