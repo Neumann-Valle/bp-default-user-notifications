@@ -82,7 +82,7 @@ class UserNotification
                         foreach ($user_query->get_results() as $user) {
 
                             // update
-                            $done = $this->setDefaultNotifications($user->id, $_POST["process"]);
+                            $done = $this->setDefaultNotifications( $user->ID, $_POST["process"] );
 
                             if ($done) {
 
@@ -137,7 +137,7 @@ class UserNotification
             for ($a = 0; $a < count($bp_notifications); $a ++) {
 
                 // check security , make sure this is true
-                if ((bool) $notifications[$i][$bp_notifications[$a]]) {
+                if ( isset( $notifications[$i][$bp_notifications[$a]] ) ) {
 
                     bp_update_user_meta($user_id, $bp_notifications[$a], $notifications[$i][$bp_notifications[$a]]);
                 }
