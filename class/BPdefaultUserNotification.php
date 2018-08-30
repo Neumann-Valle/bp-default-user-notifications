@@ -2,12 +2,12 @@
 
 /**
  * @author Neumann S Valle
- * class UserNotification
+ * class BPdefaultUserNotification
  * License GPLv2
- * @e vcomputadoras@yahoo.com
+ * @ vcomputadoras@yahoo.com
  * 
  */
-class UserNotification
+class BPdefaultUserNotification
 {
 
     private $count = 0;
@@ -82,7 +82,7 @@ class UserNotification
                         foreach ($user_query->get_results() as $user) {
 
                             // update
-                            $done = $this->setDefaultNotifications( $user->ID, $_POST["process"] );
+                            $done = $this->setDefaultNotifications($user->ID, $_POST["process"]);
 
                             if ($done) {
 
@@ -137,7 +137,7 @@ class UserNotification
             for ($a = 0; $a < count($bp_notifications); $a ++) {
 
                 // check security , make sure this is true
-                if ( isset( $notifications[$i][$bp_notifications[$a]] ) ) {
+                if (isset($notifications[$i][$bp_notifications[$a]])) {
 
                     bp_update_user_meta($user_id, $bp_notifications[$a], $notifications[$i][$bp_notifications[$a]]);
                 }
@@ -212,8 +212,7 @@ class UserNotification
                         </tr>
                                   
                     </table>';
-        } 
-        else {
+        } else {
 
             echo '<p class="fatal-err">"BP default user noifications" plugin requires Buddypress to be installed in order to work.</p>';
         }

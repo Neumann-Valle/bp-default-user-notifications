@@ -12,17 +12,17 @@ BP default user noifications allows you to change buddypress default notificatio
 == Description ==
 
 Buddypres lacks settings to change notifications for your users, by default they are set to "YES" notify by email for any activity which could cause you 
-problems with your hosting service.. as it did for me.. since bots register and message users and so much more..  .
+problems with your hosting service.. as it did for me.. since bots register and message users and so much more...
 
 Major features BP default user noifications include:
 
-* Change default notification for your users, switch to "NO" and click update and will update all your user setting but Admins.
-* User notifications autmatically gets updated after registering, so no more worries, BP default user noifications does the job for you.
+* Change default email notifications for your users, switch to "NO" and click update and will update all your user setting but Admins.
+* User email notifications autmatically gets updated after registering, so no more worries, BP default user noifications does the job for you.
 * That it, something so simple and so important that buddypress lacks of.
 
 == Installation ==
 
-Upload the "BP-default-user-noifications" plugin folder to your Buddypress powered site, Activate it, then go to the "BP default user noifications" in the admin menu panel and update notifications as pleased..
+Upload the "BP-default-user-nofications" plugin folder to your Buddypress powered site, Activate it, then go to the "BP default user nofications" in the admin menu panel and update notifications as pleased..
 
  == social ==
  Follow on twitter @vcomputadoras.com, Linkedin https://www.linkedin.com/in/neumann-valle-abb72682/ also Github https://github.com/utan
@@ -31,6 +31,6 @@ Upload the "BP-default-user-noifications" plugin folder to your Buddypress power
 
 = 1.0.0 =
 
-*Release Date - 08/28/2018*
+*Release Date - 08/29/2018*
 
 * First mayor release.. it's a baby.
