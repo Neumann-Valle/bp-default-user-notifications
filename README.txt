@@ -25,7 +25,7 @@ Major features BP default user noifications include:
 Upload the "BP-default-user-nofications" plugin folder to your Buddypress powered site, Activate it, then go to the "BP default user nofications" in the admin menu panel and update notifications as pleased..
 
  == social ==
- Follow on twitter @vcomputadoras.com, Linkedin https://www.linkedin.com/in/neumann-valle-abb72682/ also Github https://github.com/utan
+ Follow on twitter @vcomputadoras.com, Linkedin https://www.linkedin.com/in/neumann-s-valle-88571b268/ also Github https://github.com/Neumann-Valle
  
 == Changelog ==
 
